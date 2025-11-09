@@ -1,3 +1,5 @@
+using JugendApp.SharedModels.Enums;
+
 namespace JugendApp.SharedModels;
 
 public class ContactOption
@@ -36,11 +38,4 @@ public class ContactOption
     }
 
     
-}
-
-public enum ContactOptionType
-{
-    Email,
-    Sms,
-    WhatsApp
 }
