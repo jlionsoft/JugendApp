@@ -9,3 +9,4 @@
 /home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.SharedModels/obj/Debug/net8.0/refint/JugendApp.SharedModels.dll
 /home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.SharedModels/obj/Debug/net8.0/JugendApp.SharedModels.pdb
 /home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.SharedModels/obj/Debug/net8.0/ref/JugendApp.SharedModels.dll
+/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.SharedModels/obj/Debug/net8.0/JugendApp.SharedModels.sourcelink.json

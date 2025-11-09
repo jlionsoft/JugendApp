@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JugendApp.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ea71e33c682d53ed9c579cd6a73d865bea21d3b")]
 [assembly: System.Reflection.AssemblyProductAttribute("JugendApp.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JugendApp.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
