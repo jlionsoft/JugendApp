@@ -1,4 +1,4 @@
-namespace JugendApp.SharedModels;
+namespace JugendApp.SharedModels.Person;
 
 public class Person
 {

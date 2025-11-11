@@ -10,3 +10,15 @@
 /home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.SharedModels/obj/Debug/net8.0/JugendApp.SharedModels.pdb
 /home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.SharedModels/obj/Debug/net8.0/ref/JugendApp.SharedModels.dll
 /home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.SharedModels/obj/Debug/net8.0/JugendApp.SharedModels.sourcelink.json
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\bin\Debug\net8.0\JugendApp.SharedModels.deps.json
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\bin\Debug\net8.0\JugendApp.SharedModels.dll
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\bin\Debug\net8.0\JugendApp.SharedModels.pdb
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\obj\Debug\net8.0\JugendApp.SharedModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\obj\Debug\net8.0\JugendApp.SharedModels.AssemblyInfoInputs.cache
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\obj\Debug\net8.0\JugendApp.SharedModels.AssemblyInfo.cs
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\obj\Debug\net8.0\JugendApp.SharedModels.csproj.CoreCompileInputs.cache
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\obj\Debug\net8.0\JugendApp.SharedModels.sourcelink.json
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\obj\Debug\net8.0\JugendApp.SharedModels.dll
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\obj\Debug\net8.0\refint\JugendApp.SharedModels.dll
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\obj\Debug\net8.0\JugendApp.SharedModels.pdb
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\obj\Debug\net8.0\ref\JugendApp.SharedModels.dll
