@@ -8,25 +8,34 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/josua/.nuget/packages/": {}
+    "C:\\Users\\josua\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.SharedModels/JugendApp.SharedModels.csproj",
+      "projectUniqueName": "C:\\Users\\josua\\source\\repos\\jlionsoft\\JugendApp\\JugendApp.SharedModels\\JugendApp.SharedModels.csproj",
       "projectName": "JugendApp.SharedModels",
-      "projectPath": "/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.SharedModels/JugendApp.SharedModels.csproj",
-      "packagesPath": "/home/josua/.nuget/packages/",
-      "outputPath": "/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.SharedModels/obj/",
+      "projectPath": "C:\\Users\\josua\\source\\repos\\jlionsoft\\JugendApp\\JugendApp.SharedModels\\JugendApp.SharedModels.csproj",
+      "packagesPath": "C:\\Users\\josua\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\josua\\source\\repos\\jlionsoft\\JugendApp\\JugendApp.SharedModels\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/josua/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\josua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/home/josua/.dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Users\\josua\\.nuget\\packages\\": {},
+        "F:\\NugetBackup\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -66,7 +75,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/josua/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

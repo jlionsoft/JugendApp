@@ -1,6 +1,6 @@
 using JugendApp.SharedModels.Enums;
 
-namespace JugendApp.SharedModels;
+namespace JugendApp.SharedModels.Person;
 
 public class ContactOption
 {
