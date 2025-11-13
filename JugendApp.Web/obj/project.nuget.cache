@@ -29,7 +29,7 @@
       "message": "The local source 'F:\\NugetBackup\\packages' doesn't exist.",
       "projectPath": "C:\\Users\\josua\\source\\repos\\jlionsoft\\JugendApp\\JugendApp.Web\\JugendApp.Web.csproj",
       "filePath": "C:\\Users\\josua\\source\\repos\\jlionsoft\\JugendApp\\JugendApp.Web\\JugendApp.Web.csproj",
-      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
+      "libraryId": "Microsoft.NET.ILLink.Tasks",
       "targetGraphs": []
     },
     {
@@ -38,7 +38,7 @@
       "message": "The local source 'F:\\NugetBackup\\packages' doesn't exist.",
       "projectPath": "C:\\Users\\josua\\source\\repos\\jlionsoft\\JugendApp\\JugendApp.Web\\JugendApp.Web.csproj",
       "filePath": "C:\\Users\\josua\\source\\repos\\jlionsoft\\JugendApp\\JugendApp.Web\\JugendApp.Web.csproj",
-      "libraryId": "Microsoft.NET.ILLink.Tasks",
+      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
       "targetGraphs": []
     }
   ]
