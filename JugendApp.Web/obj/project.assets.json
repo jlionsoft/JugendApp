@@ -134,6 +134,12 @@
       "code": "NU1301",
       "level": "Error",
       "message": "The local source 'F:\\NugetBackup\\packages' doesn't exist.",
+      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'F:\\NugetBackup\\packages' doesn't exist.",
       "libraryId": "Microsoft.AspNetCore.Components.WebAssembly.DevServer"
     },
     {
@@ -141,12 +147,6 @@
       "level": "Error",
       "message": "The local source 'F:\\NugetBackup\\packages' doesn't exist.",
       "libraryId": "Microsoft.NET.ILLink.Tasks"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "The local source 'F:\\NugetBackup\\packages' doesn't exist.",
-      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly"
     }
   ]
 }

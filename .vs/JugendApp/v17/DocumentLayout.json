@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\josua\\source\\repos\\jlionsoft\\JugendApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85921D87-D28B-49C2-A771-22EF036C892F}|JugendApp.SharedModels\\JugendApp.SharedModels.csproj|c:\\users\\josua\\source\\repos\\jlionsoft\\jugendapp\\jugendapp.sharedmodels\\events\\simpleevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85921D87-D28B-49C2-A771-22EF036C892F}|JugendApp.SharedModels\\JugendApp.SharedModels.csproj|solutionrelative:jugendapp.sharedmodels\\events\\simpleevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85921D87-D28B-49C2-A771-22EF036C892F}|JugendApp.SharedModels\\JugendApp.SharedModels.csproj|c:\\users\\josua\\source\\repos\\jlionsoft\\jugendapp\\jugendapp.sharedmodels\\events\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85921D87-D28B-49C2-A771-22EF036C892F}|JugendApp.SharedModels\\JugendApp.SharedModels.csproj|solutionrelative:jugendapp.sharedmodels\\events\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85921D87-D28B-49C2-A771-22EF036C892F}|JugendApp.SharedModels\\JugendApp.SharedModels.csproj|c:\\users\\josua\\source\\repos\\jlionsoft\\jugendapp\\jugendapp.sharedmodels\\events\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85921D87-D28B-49C2-A771-22EF036C892F}|JugendApp.SharedModels\\JugendApp.SharedModels.csproj|solutionrelative:jugendapp.sharedmodels\\events\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 352,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +43,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\josua\\source\\repos\\jlionsoft\\JugendApp\\JugendApp.SharedModels\\Events\\Location.cs",
+              "RelativeDocumentMoniker": "JugendApp.SharedModels\\Events\\Location.cs",
+              "ToolTip": "C:\\Users\\josua\\source\\repos\\jlionsoft\\JugendApp\\JugendApp.SharedModels\\Events\\Location.cs",
+              "RelativeToolTip": "JugendApp.SharedModels\\Events\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:02:21.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\josua\\source\\repos\\jlionsoft\\JugendApp\\JugendApp.SharedModels\\Events\\Address.cs",
+              "RelativeDocumentMoniker": "JugendApp.SharedModels\\Events\\Address.cs",
+              "ToolTip": "C:\\Users\\josua\\source\\repos\\jlionsoft\\JugendApp\\JugendApp.SharedModels\\Events\\Address.cs",
+              "RelativeToolTip": "JugendApp.SharedModels\\Events\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T09:58:16.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SimpleEvent.cs",
+              "DocumentMoniker": "C:\\Users\\josua\\source\\repos\\jlionsoft\\JugendApp\\JugendApp.SharedModels\\Events\\SimpleEvent.cs",
+              "RelativeDocumentMoniker": "JugendApp.SharedModels\\Events\\SimpleEvent.cs",
+              "ToolTip": "C:\\Users\\josua\\source\\repos\\jlionsoft\\JugendApp\\JugendApp.SharedModels\\Events\\SimpleEvent.cs",
+              "RelativeToolTip": "JugendApp.SharedModels\\Events\\SimpleEvent.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowC0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T09:55:17.11Z",
+              "EditorCaption": ""
             }
           ]
         },
