@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JugendApp.Desktop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2e045ad2c08f711960475cb48e4f1933764fa94")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40be69efbfab596001f58a77123d4ceaad58857f")]
 [assembly: System.Reflection.AssemblyProductAttribute("JugendApp.Desktop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JugendApp.Desktop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

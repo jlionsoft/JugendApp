@@ -32,3 +32,6 @@
 /home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Api/obj/Debug/net8.0/JugendApp.Api.pdb
 /home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Api/obj/Debug/net8.0/JugendApp.Api.genruntimeconfig.cache
 /home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Api/obj/Debug/net8.0/ref/JugendApp.Api.dll
+/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Api/bin/Debug/net8.0/JugendApp.SharedModels.dll
+/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Api/bin/Debug/net8.0/JugendApp.SharedModels.pdb
+/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Api/obj/Debug/net8.0/JugendApp.Api.sourcelink.json

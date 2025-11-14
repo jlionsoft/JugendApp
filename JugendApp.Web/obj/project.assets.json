@@ -128,13 +128,7 @@
       "code": "NU1301",
       "level": "Error",
       "message": "The local source 'F:\\NugetBackup\\packages' doesn't exist.",
-      "libraryId": "Microsoft.NET.Sdk.WebAssembly.Pack"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "The local source 'F:\\NugetBackup\\packages' doesn't exist.",
-      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly"
+      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly.DevServer"
     },
     {
       "code": "NU1301",
@@ -146,7 +140,13 @@
       "code": "NU1301",
       "level": "Error",
       "message": "The local source 'F:\\NugetBackup\\packages' doesn't exist.",
-      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly.DevServer"
+      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'F:\\NugetBackup\\packages' doesn't exist.",
+      "libraryId": "Microsoft.NET.Sdk.WebAssembly.Pack"
     }
   ]
 }

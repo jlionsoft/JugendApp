@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JugendApp.SharedModels")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+761b117631a7118e084443214daceb6c7e3aedd2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40be69efbfab596001f58a77123d4ceaad58857f")]
 [assembly: System.Reflection.AssemblyProductAttribute("JugendApp.SharedModels")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JugendApp.SharedModels")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

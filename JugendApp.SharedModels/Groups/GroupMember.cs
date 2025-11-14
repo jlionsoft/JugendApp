@@ -11,7 +11,7 @@ public class GroupMember
 {
     public int Id { get; set; }
     public GroupMemberRole Role { get; set; }
-    public Person Person { get; set; }
+    public Person.Person Person { get; set; }
     public DateTime AddedAt { get; set; }
     
     /// <summary>
@@ -20,7 +20,7 @@ public class GroupMember
     /// <param name="role">The <see cref="GroupMemberRole"/> assigned to the member.</param>
     /// <param name="person">The <see cref="Person"/> associated with the group member.</param>
     /// <param name="addedAt">The date and time the member was added to the group.</param>
-    public GroupMember(GroupMemberRole role, Person person, DateTime addedAt)
+    public GroupMember(GroupMemberRole role, Person.Person person, DateTime addedAt)
     {
         Role = role;
         Person = person;
@@ -34,7 +34,7 @@ public class GroupMember
     /// <param name="role">The <see cref="GroupMemberRole"/> of the member.</param>
     /// <param name="person">The <see cref="Person"/> object representing the member.</param>
     /// <param name="addedAt">The timestamp when the member joined the group.</param>
-    public GroupMember(int id, GroupMemberRole role, Person person, DateTime addedAt)
+    public GroupMember(int id, GroupMemberRole role, Person.Person person, DateTime addedAt)
     {
         Id = id;
         Role = role;
