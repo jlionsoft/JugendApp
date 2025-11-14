@@ -1,0 +1,24 @@
+<changelist name="Uncommitted_changes_before_Update_at_11_11_25,_16_50_[Changes]" date="1762876251454" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.JugendApp/.idea/shelf/Uncommitted_changes_before_Update_at_11_11_25,_16_50_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 11.11.25, 16:50 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="JugendApp.Web/obj/Debug/net8.0/JugendApp.Web.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="JugendApp.Web/obj/Debug/net8.0/JugendApp.Web.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.JugendApp/.idea/shelf/Uncommitted_changes_before_Update_at_11_11_25,_16_50_[Changes]/JugendApp.Web.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="JugendApp.SharedModels/obj/Debug/net8.0/JugendApp.SharedModels.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="JugendApp.SharedModels/obj/Debug/net8.0/JugendApp.SharedModels.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.JugendApp/.idea/shelf/Uncommitted_changes_before_Update_at_11_11_25,_16_50_[Changes]/JugendApp.SharedModels.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="JugendApp.Desktop/obj/Debug/net8.0/JugendApp.Desktop.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="JugendApp.Desktop/obj/Debug/net8.0/JugendApp.Desktop.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.JugendApp/.idea/shelf/Uncommitted_changes_before_Update_at_11_11_25,_16_50_[Changes]/JugendApp.Desktop.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="JugendApp.Api/obj/Debug/net8.0/JugendApp.Api.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="JugendApp.Api/obj/Debug/net8.0/JugendApp.Api.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.JugendApp/.idea/shelf/Uncommitted_changes_before_Update_at_11_11_25,_16_50_[Changes]/JugendApp.Api.AssemblyInfoInputs.cache" />
+  </binary>
+</changelist>

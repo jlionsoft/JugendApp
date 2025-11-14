@@ -1023,9 +1023,6 @@
 /home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/compressed/u9eoancogr-tptq2av103.gz
 /home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/compressed/alykamzzoe-lfu7j35m59.gz
 /home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/compressed/70jkxcm58x-oyz0vx2fzb.gz
-/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/compressed/09wo9xdobf-x7prld7by1.gz
-/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/compressed/vdftpqm6f4-qvdamofjz7.gz
-/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/compressed/dtdbva1c0i-ljueklk1rk.gz
 /home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/staticwebassets.build.json
 /home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/staticwebassets.build.json.cache
 /home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/staticwebassets.development.json
@@ -1035,3 +1032,16 @@
 /home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/refint/JugendApp.Web.dll
 /home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/JugendApp.Web.pdb
 /home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/ref/JugendApp.Web.dll
+/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/bin/Debug/net8.0/wwwroot/_framework/JugendApp.SharedModels.pdb
+/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/bin/Debug/net8.0/wwwroot/_framework/JugendApp.SharedModels.wasm
+/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/bin/Debug/net8.0/wwwroot/_framework/JugendApp.SharedModels.wasm.gz
+/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/bin/Debug/net8.0/wwwroot/_framework/JugendApp.SharedModels.pdb.gz
+/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/bin/Debug/net8.0/JugendApp.SharedModels.dll
+/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/bin/Debug/net8.0/JugendApp.SharedModels.pdb
+/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/JugendApp.Web.sourcelink.json
+/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/webcil/JugendApp.SharedModels.wasm
+/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/compressed/0g5xbo58g0-9w0bh4mo8s.gz
+/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/compressed/dzn0niqw2q-9enlgzf6zg.gz
+/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/compressed/09wo9xdobf-qzjt2hrsnh.gz
+/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/compressed/vdftpqm6f4-tviljktrac.gz
+/home/josua/Dokumente/NetSharing/06_JLionSoft/02_Eigene_Projekte/04_Multi/JugendApp/src/JugendApp.Web/obj/Debug/net8.0/compressed/dtdbva1c0i-lyw0t5bklh.gz
