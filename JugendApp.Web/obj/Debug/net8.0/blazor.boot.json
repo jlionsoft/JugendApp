@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "JugendApp.Web",
   "resources": {
-    "hash": "sha256-U4xLnSggMXziH8oVgyQqF7oAq11sAUsUVGDzDoebmQo=",
+    "hash": "sha256-pzSq00Ke4JnNtYj+6ft1ud5i262jRSijNCB1pni4U3Y=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-9Fzd5We95Rp03dEKIAbYjPDR3eWyLbmjMlYStvxyiok="
     },
@@ -209,12 +209,12 @@
       "mscorlib.wasm": "sha256-MZJ1V6miMP318lQowft4FPkcszcibPLDTwKj235fSAc=",
       "netstandard.wasm": "sha256-RYAURbR1AHkUZYjKgu+B/i3N3VP4abnAaH+vxwJ8d3c=",
       "System.Private.CoreLib.wasm": "sha256-4YzdATaWUDkUkRpe+hl+T61TaCjRVapVUtqTIai3Gd8=",
-      "JugendApp.SharedModels.wasm": "sha256-t4XQAbsONuqadT06EcdE+yctb7cP7WskPMNNo6odEQE=",
-      "JugendApp.Web.wasm": "sha256-ih8iHnOKSiPcsmtK1+vt1A8/0NFp3fidKsbh6defe9Q="
+      "JugendApp.SharedModels.wasm": "sha256-O8s3HMDGxKvrpr7OUqSyzMoMHlT5UqbFBIrwFeBipjo=",
+      "JugendApp.Web.wasm": "sha256-nbNW/7fd9IZDhQFUv9Bpyj0QdOXH9K2U685R2TTlge4="
     },
     "pdb": {
-      "JugendApp.SharedModels.pdb": "sha256-sVW4kce4A7wp7KV7mJt0IO+fZ2xBhyoMr9B5WgPD+Sc=",
-      "JugendApp.Web.pdb": "sha256-2aWqy85PxmkMY0f4b3l7Vp5mRFzA6wqDeR2RrGTzeXI="
+      "JugendApp.SharedModels.pdb": "sha256-X++2GblZ5NME/Xxf9OTIVFwc1QbpWPUzcTzoEP3RfD0=",
+      "JugendApp.Web.pdb": "sha256-YlaGEvkUmviRsR11r0fqyRL8zTeNjwzVoz7XjOzcJng="
     }
   },
   "cacheBootResources": true,

@@ -28,7 +28,6 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "C:\\Users\\josua\\.nuget\\packages\\": {},
-          "F:\\NugetBackup\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,6 +56,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Asp.Versioning.Mvc": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Asp.Versioning.Mvc.ApiExplorer": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "AutoMapper": {
               "target": "Package",
               "version": "[15.1.0, )"
@@ -125,7 +132,6 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "C:\\Users\\josua\\.nuget\\packages\\": {},
-          "F:\\NugetBackup\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

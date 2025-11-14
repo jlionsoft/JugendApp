@@ -8,11 +8,13 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Asp.Versioning.Mvc" Version="8.1.0" />
+        <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.0" />
         <PackageReference Include="AutoMapper" Version="15.1.0" />
         <PackageReference Include="EntityFrameworkCore.Toolbox" Version="8.0.14" />
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.22" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.22" />
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
     </ItemGroup>
 
     <ItemGroup>
