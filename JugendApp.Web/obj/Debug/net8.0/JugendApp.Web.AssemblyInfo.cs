@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JugendApp.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b97558c497f2f77dd9266300b64e345b0ef11591")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1c8c06d49ee9ec5e8cbbc584c61502ecef814c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("JugendApp.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JugendApp.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
