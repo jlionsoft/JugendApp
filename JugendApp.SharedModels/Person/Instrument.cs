@@ -5,6 +5,8 @@ public class Instrument
     public int Id { get; private set; }
     public string Name { get; private set; } = string.Empty;
 
+    public Instrument() {  }
+
     /// <summary>
     /// Initializes a new instance of the <see cref="Instrument"/> class with a database ID and a name.
     /// </summary>
@@ -24,7 +26,6 @@ public class Instrument
     {
         Name = name;
     }
-
 
     override public string ToString() => Name;
 }

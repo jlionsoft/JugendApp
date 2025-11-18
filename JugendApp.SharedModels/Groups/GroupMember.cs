@@ -1,5 +1,5 @@
 using JugendApp.SharedModels.Enums;
-
+using System.Text.RegularExpressions;
 namespace JugendApp.SharedModels.Groups;
 
 
@@ -11,9 +11,13 @@ public class GroupMember
 {
     public int Id { get; set; }
     public GroupMemberRole Role { get; set; }
-    public Person.Person Person { get; set; }
+    public int PersonId { get; set; }
+    public Person.Person? Person { get; set; }
+    public int GroupId { get; private set; }
+    public Group Group { get; private set; } = default!;
     public DateTime AddedAt { get; set; }
-    
+    public GroupMember() { }
+
     /// <summary>
     /// Initializes a new instance of the <see cref="GroupMember"/> class with role, person, and added date.
     /// </summary>
@@ -41,4 +45,19 @@ public class GroupMember
         Person = person;
         AddedAt = addedAt;
     }
+
+    internal void AttachToGroup(Group group)
+    {
+        Group = group ?? throw new ArgumentNullException(nameof(group));
+        GroupId = group.Id;
+    }
+
+    internal void Detach()
+    {
+        Group = null!;
+        GroupId = 0;
+    }
+
+    public void SetRole(GroupMemberRole role) => Role = role;
+
 }

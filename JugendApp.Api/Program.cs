@@ -1,3 +1,7 @@
+using JugendApp.Api;
+using JugendApp.Api.Profiles;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,10 +11,18 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<ApiDBContext>(options =>
+                options.UseSqlServer(@$"Server=(localdb)\MSSQLLocalDB;Database=JugendApp;Trusted_Connection=True;MultipleActiveResultSets=true;"));
+
+
 //  Add DI for AutoMapper
-builder.Services.AddAutoMapper(typeof(Program).Assembly);
+builder.Services.AddAutoMapper(typeof(PersonProfile).Assembly, typeof(GroupProfile).Assembly, typeof(EventProfile).Assembly);
 
 var app = builder.Build();
+
+using var scope = app.Services.CreateScope();
+var db = scope.ServiceProvider.GetRequiredService<ApiDBContext>();
+db.Database.Migrate();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

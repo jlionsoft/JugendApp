@@ -1,3 +1,5 @@
+using JugendApp.SharedModels.Enums;
+
 namespace JugendApp.SharedModels.Groups;
 
 
@@ -11,8 +13,9 @@ public class Group
     public string Description { get; set; } = string.Empty;
     public DateTime CreatedAt { get; set; }
 
-    public IEnumerable<GroupMember> Members { get; set; } = [];
-    
+    public ICollection<GroupMember> Members { get; set; } = [];
+    public Group() { }
+
     /// <summary>
     /// Initializes a new instance of the <see cref="Group"/> class with name, description, and creation date.
     /// </summary>
@@ -34,7 +37,7 @@ public class Group
     /// <param name="description">A short description of the group.</param>
     /// <param name="createdAt">The creation timestamp of the group.</param>
     /// <param name="members">A collection of <see cref="GroupMember"/>s belonging to the group.</param>
-    public Group(int id, string name, string description, DateTime createdAt, IEnumerable<GroupMember> members)
+    public Group(int id, string name, string description, DateTime createdAt, ICollection<GroupMember> members)
     {
         Id = id;
         Name = name;
@@ -42,4 +45,27 @@ public class Group
         CreatedAt = createdAt;
         Members = members;
     }
+
+    public void AddMember(Person.Person person, GroupMemberRole role, DateTime addedAt)
+    {
+        if (person == null) throw new ArgumentNullException(nameof(person));
+        if (Members.Any(m => m.PersonId == person.Id))
+        {
+            // alternativ: update role/addedAt
+            throw new InvalidOperationException("Person ist bereits Mitglied der Gruppe.");
+        }
+
+        var member = new GroupMember(role, person, addedAt);
+        member.AttachToGroup(this);
+        Members.Add(member);
+    }
+
+    public void RemoveMember(int personId)
+    {
+        var member = Members.SingleOrDefault(m => m.PersonId == personId);
+        if (member == null) return;
+        Members.Remove(member);
+        member.Detach();
+    }
+
 }

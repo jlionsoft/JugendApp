@@ -2081,11 +2081,6 @@ C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\c
 C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\compressed\u9eoancogr-tptq2av103.gz
 C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\compressed\alykamzzoe-lfu7j35m59.gz
 C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\compressed\70jkxcm58x-oyz0vx2fzb.gz
-C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\compressed\0g5xbo58g0-5w0xmr9kdv.gz
-C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\compressed\dzn0niqw2q-7qzurhkv5n.gz
-C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\compressed\09wo9xdobf-t4nmhpqlmw.gz
-C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\compressed\vdftpqm6f4-m20pxne26o.gz
-C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\compressed\dtdbva1c0i-71tqous9xr.gz
 C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\staticwebassets.development.json
@@ -2093,3 +2088,9 @@ C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\s
 C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\JugendAp.0211A9F9.Up2Date
 C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\ref\JugendApp.Web.dll
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\compressed\0g5xbo58g0-053j3zxka8.gz
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\compressed\dzn0niqw2q-u35mcrfros.gz
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\compressed\09wo9xdobf-955p9iakyt.gz
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\compressed\vdftpqm6f4-if83orqiek.gz
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\compressed\dtdbva1c0i-th6v71d0hn.gz
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Web\obj\Debug\net8.0\webcil\JugendApp.Client.wasm

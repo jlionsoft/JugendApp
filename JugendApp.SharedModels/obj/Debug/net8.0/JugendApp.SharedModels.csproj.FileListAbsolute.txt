@@ -22,3 +22,7 @@ C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\obj\Debug
 C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\obj\Debug\net8.0\refint\JugendApp.SharedModels.dll
 C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\obj\Debug\net8.0\JugendApp.SharedModels.pdb
 C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\obj\Debug\net8.0\ref\JugendApp.SharedModels.dll
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\bin\Debug\net8.0\JugendApp.DTOs.dll
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\bin\Debug\net8.0\JugendApp.DTOs.pdb
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\obj\Debug\net8.0\JugendApp.SharedModels.csproj.AssemblyReference.cache
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.SharedModels\obj\Debug\net8.0\JugendAp.59FDA1A0.Up2Date

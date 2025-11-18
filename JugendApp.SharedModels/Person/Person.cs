@@ -1,3 +1,5 @@
+using JugendApp.SharedModels.Groups;
+
 namespace JugendApp.SharedModels.Person;
 
 public class Person
@@ -6,10 +8,47 @@ public class Person
     public string Firstname { get; private set; } = string.Empty;
     public string Lastname { get; private set; } = string.Empty;
 
-    public IEnumerable<ContactOption> ContactOptions { get; private set; } = [];
-    
-    public IEnumerable<InstrumentSkill> Instruments { get; private set; } = [];
-    
+    public ICollection<ContactOption> ContactOptions { get; private set; } = [];
+
+    public void AddContact(ContactOption contact)
+    {
+        if (contact == null) throw new ArgumentNullException(nameof(contact));
+        contact.Person = this;
+        ContactOptions.Add(contact);
+    }
+    public void RemoveContact(ContactOption contact)
+    {
+        if (contact == null) throw new ArgumentNullException(nameof(contact));
+        ContactOptions.Remove(contact);
+        contact.Person = null;                  // optional, löst Beziehung im Objektgraph
+    }
+
+    public ICollection<InstrumentSkill> Instruments { get; private set; } = [];
+
+    public void AddOrUpdateInstrument(Instrument instrument, int level)
+    {
+        if (instrument == null) throw new ArgumentNullException(nameof(instrument));
+        var existing = Instruments.SingleOrDefault(s => s.InstrumentId == instrument.Id);
+        if (existing != null)
+        {
+            existing.SetLevel(level);
+            return;
+        }
+        var skill = new InstrumentSkill(instrument.Id, level);
+        skill.AttachToPerson(this);
+        skill.SetInstrument(instrument);
+        Instruments.Add(skill);
+    }
+    public void RemoveInstrument(int instrumentId)
+    {
+        var existing = Instruments.SingleOrDefault(s => s.InstrumentId == instrumentId);
+        if (existing == null) return;
+        Instruments.Remove(existing);
+        existing.Detach();
+    }
+
+    public Person() { }
+
     /// <summary>
     /// Initializes a new instance of the <see cref="Person"/> class with a specified ID and details.
     /// </summary>
@@ -18,7 +57,7 @@ public class Person
     /// <param name="lastname">The person's last name.</param>
     /// <param name="contactOptions">A collection of contact details for the person.</param>
     /// <param name="instruments">A collection of instruments the person plays, including skill levels.</param>
-    public Person(int id, string firstname, string lastname,  IEnumerable<ContactOption> contactOptions, IEnumerable<InstrumentSkill> instruments)
+    public Person(int id, string firstname, string lastname,  ICollection<ContactOption> contactOptions, ICollection<InstrumentSkill> instruments)
     {
         Id = id;
         Firstname = firstname;
@@ -33,7 +72,7 @@ public class Person
     /// <param name="lastname">The person's last name.</param>
     /// <param name="contactOptions">A collection of contact details for the person.</param>
     /// <param name="instruments">A collection of instruments the person plays, including skill levels.</param>
-    public Person(string  firstname, string lastname, IEnumerable<ContactOption> contactOptions, IEnumerable<InstrumentSkill> instruments)
+    public Person(string  firstname, string lastname, ICollection<ContactOption> contactOptions, ICollection<InstrumentSkill> instruments)
     {
         Firstname = firstname;
         Lastname = lastname;

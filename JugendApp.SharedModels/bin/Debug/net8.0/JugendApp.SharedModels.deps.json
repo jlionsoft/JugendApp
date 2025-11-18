@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "JugendApp.SharedModels/1.0.0": {
+        "dependencies": {
+          "JugendApp.DTOs": "1.0.0"
+        },
         "runtime": {
           "JugendApp.SharedModels.dll": {}
+        }
+      },
+      "JugendApp.DTOs/1.0.0": {
+        "runtime": {
+          "JugendApp.DTOs.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "JugendApp.SharedModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JugendApp.DTOs/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

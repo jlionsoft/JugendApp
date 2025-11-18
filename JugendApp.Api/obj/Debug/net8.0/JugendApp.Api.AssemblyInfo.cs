@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JugendApp.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef8795335e64a21c8cdfc30e8051b44c684c9644")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a07c31d2d2a9084340ac28de14963cfdb8d75567")]
 [assembly: System.Reflection.AssemblyProductAttribute("JugendApp.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JugendApp.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

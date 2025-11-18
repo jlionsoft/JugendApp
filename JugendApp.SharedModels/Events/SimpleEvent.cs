@@ -12,18 +12,20 @@ namespace JugendApp.SharedModels.Events
 {
     public class SimpleEvent
     {
-        public int Id { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public int PersonId { get; set; }
-        [ForeignKey("PersonId")]
-        public Person.Person CreatedBy { get; set; }
-        public int LocationId { get; set; }
-        [ForeignKey("LocationId")]
-        public Location Location { get; set; }
-        public DateTime StartDateTime { get; set; }
-        [DefaultValue(typeof(DateTime), "2025-01-01T23:00:00")]
-        public DateTime EndDateTime { get; set; }
+        public int Id { get; private set; }
+        public string Title { get; private set; } = string.Empty;
+        public string Description { get; private set; } = string.Empty;
+
+        public int PersonId { get; private set; }
+        public Person.Person CreatedBy { get; private set; } = default!;
+
+        public int LocationId { get; private set; }
+        public Location Location { get; private set; } = default!;
+
+        public DateTime StartDateTime { get; private set; }
+        public DateTime EndDateTime { get; private set; }
+
+        public SimpleEvent() { }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="SimpleEvent"/> class with the specified event details.
@@ -43,10 +45,8 @@ namespace JugendApp.SharedModels.Events
             StartDateTime = startDateTime;
             EndDateTime = endDateTime;
         }
-        public SimpleEvent()
-        {
-            
-        }
+        public void SetEnd(DateTime end) => EndDateTime = end;
+
 
     }
 }

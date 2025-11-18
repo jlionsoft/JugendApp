@@ -3,10 +3,17 @@ namespace JugendApp.SharedModels.Person;
 public class InstrumentSkill
 {
     public int Id { get; private set; }
-    public int InstrumentId { get; set; }
-    public Instrument Instrument { get; private set; }
+    public int PersonId { get; private set; }
+    public Person? Person { get; internal set; }
+
+    public int InstrumentId { get; private set; }
+    public Instrument? Instrument { get; internal set; } = default!;
+
     public int Level { get; private set; }
-    
+
+    public InstrumentSkill() { }
+
+
     /// <summary>
     /// Initializes a new instance of the <see cref="InstrumentSkill"/> class with a database ID, 
     /// an <see cref="Instrument"/> object, and a skill level.
@@ -31,6 +38,24 @@ public class InstrumentSkill
         InstrumentId = instrumentId;
         Level = level;
     }
+    internal void AttachToPerson(Person person)
+    {
+        Person = person;
+        PersonId = person.Id;
+    }
 
+    internal void Detach()
+    {
+        Person = null;
+        PersonId = 0;
+    }
+
+    internal void SetInstrument(Instrument instrument)
+    {
+        Instrument = instrument ?? throw new ArgumentNullException(nameof(instrument));
+        InstrumentId = instrument.Id;
+    }
+
+    public void SetLevel(int newLevel) => Level = newLevel;
 
 }

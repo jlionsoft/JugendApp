@@ -8,7 +8,10 @@ public class ContactOption
     public ContactOptionType Type { get; private set; }
     public string Value { get; private set; }
     public bool IsValidated { get; private set; }
-    
+    public int PersonId { get; private set; }
+    public Person? Person { get; internal set; }
+    public ContactOption() { }
+
     /// <summary>
     /// Initializes a new instance of the <see cref="ContactOption"/> class for a new contact method not yet stored in the database.
     /// </summary>
@@ -37,5 +40,21 @@ public class ContactOption
         IsValidated = isValidated;
     }
 
-    
+    internal void AttachToPerson(Person person)
+    {
+        Person = person;
+        PersonId = person.Id;
+    }
+
+    internal void DetachFromPerson()
+    {
+        Person = null;
+        PersonId = 0;
+    }
+
+    public void Validate() => IsValidated = true;
+    public void Invalidate() => IsValidated = false;
+
+
+
 }

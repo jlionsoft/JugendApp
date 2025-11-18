@@ -14,6 +14,7 @@
           "Avalonia.Fonts.Inter": "11.3.8",
           "Avalonia.Themes.Fluent": "11.3.8",
           "CommunityToolkit.Mvvm": "8.2.1",
+          "JugendApp.Client": "1.0.0",
           "JugendApp.SharedModels": "1.0.0"
         },
         "runtime": {
@@ -453,6 +454,17 @@
           }
         }
       },
+      "JugendApp.Client/1.0.0": {
+        "dependencies": {
+          "JugendApp.SharedModels": "1.0.0"
+        },
+        "runtime": {
+          "JugendApp.Client.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "JugendApp.SharedModels/1.0.0": {
         "runtime": {
           "JugendApp.SharedModels.dll": {
@@ -671,6 +683,11 @@
       "sha512": "sha512-ScSMrUrrw8px4kK1Glh0fZv/HQUlg1078bNXNPfRPKQ3WbRzV9HpsydYEOgSoMK5LWICMf2bMwIFH0pGjxjcMA==",
       "path": "tmds.dbus.protocol/0.21.2",
       "hashPath": "tmds.dbus.protocol.0.21.2.nupkg.sha512"
+    },
+    "JugendApp.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "JugendApp.SharedModels/1.0.0": {
       "type": "project",
