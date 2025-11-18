@@ -13,7 +13,75 @@
 /dataSources.local.xml
 
 
+# --- IDE & Projektdateien ---
 .idea/
-.vs/
-**/bin/
-**/obj/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- Build-Ausgaben ---
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+
+# --- Paketverwaltung ---
+*.nuget
+*.nupkg
+packages/
+*.snupkg
+
+# --- Visual Studio Code Coverage ---
+*.coverage
+*.coveragexml
+
+# --- Rider / IntelliJ ---
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# --- ReSharper ---
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# --- Sonstige temporäre Dateien ---
+*.swp
+*.tmp
+*.bak
+*.log
+*.db
+*.DS_Store
+Thumbs.db
+
+# --- ASP.NET / Blazor spezifisch ---
+wwwroot/_framework/
+wwwroot/css/bootstrap/
+wwwroot/sample-data/
+
+# --- Entity Framework Migrations Build Artefakte ---
+Migrations/*/obj/
+Migrations/*/bin/
+
+# --- Avalonia spezifisch ---
+*.axaml.cs
+
+# --- Rider Shelf (lokale Änderungen) ---
+.idea/**/shelf/
+
+# --- Test Ergebnisse ---
+TestResults/
+*.trx
+*.xml
+*.json
+
+# --- Publish Artefakte ---
+publish/
+*.pubxml
+*.publishproj
+
+# --- Runtime spezifisch ---
+runtimes/
