@@ -51,33 +51,10 @@ namespace JugendApp.Api.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Addresses", (string)null);
+                    b.ToTable("Addresses");
                 });
 
-            modelBuilder.Entity("JugendApp.SharedModels.Events.Location", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("AddressId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Name")
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AddressId")
-                        .IsUnique();
-
-                    b.ToTable("Locations", (string)null);
-                });
-
-            modelBuilder.Entity("JugendApp.SharedModels.Events.SimpleEvent", b =>
+            modelBuilder.Entity("JugendApp.SharedModels.Events.Event", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -112,7 +89,54 @@ namespace JugendApp.Api.Migrations
 
                     b.HasIndex("PersonId");
 
-                    b.ToTable("Events", (string)null);
+                    b.ToTable("Events");
+                });
+
+            modelBuilder.Entity("JugendApp.SharedModels.Events.Invitation", b =>
+                {
+                    b.Property<int>("EventId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PersonId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("ConfirmedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("InvitedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.HasKey("EventId", "PersonId");
+
+                    b.HasIndex("PersonId");
+
+                    b.ToTable("Invitations");
+                });
+
+            modelBuilder.Entity("JugendApp.SharedModels.Events.Location", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AddressId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AddressId")
+                        .IsUnique();
+
+                    b.ToTable("Locations");
                 });
 
             modelBuilder.Entity("JugendApp.SharedModels.Groups.Group", b =>
@@ -136,7 +160,7 @@ namespace JugendApp.Api.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Groups", (string)null);
+                    b.ToTable("Groups");
                 });
 
             modelBuilder.Entity("JugendApp.SharedModels.Groups.GroupMember", b =>
@@ -166,7 +190,7 @@ namespace JugendApp.Api.Migrations
                     b.HasIndex("GroupId", "PersonId")
                         .IsUnique();
 
-                    b.ToTable("GroupMembers", (string)null);
+                    b.ToTable("GroupMembers");
                 });
 
             modelBuilder.Entity("JugendApp.SharedModels.Person.ContactOption", b =>
@@ -194,7 +218,7 @@ namespace JugendApp.Api.Migrations
 
                     b.HasIndex("PersonId");
 
-                    b.ToTable("ContactOptions", (string)null);
+                    b.ToTable("ContactOptions");
                 });
 
             modelBuilder.Entity("JugendApp.SharedModels.Person.Instrument", b =>
@@ -211,7 +235,7 @@ namespace JugendApp.Api.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Instruments", (string)null);
+                    b.ToTable("Instruments");
                 });
 
             modelBuilder.Entity("JugendApp.SharedModels.Person.InstrumentSkill", b =>
@@ -238,7 +262,7 @@ namespace JugendApp.Api.Migrations
                     b.HasIndex("PersonId", "InstrumentId")
                         .IsUnique();
 
-                    b.ToTable("InstrumentSkills", (string)null);
+                    b.ToTable("InstrumentSkills");
                 });
 
             modelBuilder.Entity("JugendApp.SharedModels.Person.Person", b =>
@@ -259,21 +283,10 @@ namespace JugendApp.Api.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Persons", (string)null);
+                    b.ToTable("Persons");
                 });
 
-            modelBuilder.Entity("JugendApp.SharedModels.Events.Location", b =>
-                {
-                    b.HasOne("JugendApp.SharedModels.Events.Address", "Address")
-                        .WithOne()
-                        .HasForeignKey("JugendApp.SharedModels.Events.Location", "AddressId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Address");
-                });
-
-            modelBuilder.Entity("JugendApp.SharedModels.Events.SimpleEvent", b =>
+            modelBuilder.Entity("JugendApp.SharedModels.Events.Event", b =>
                 {
                     b.HasOne("JugendApp.SharedModels.Events.Location", "Location")
                         .WithMany()
@@ -292,6 +305,36 @@ namespace JugendApp.Api.Migrations
                     b.Navigation("Location");
                 });
 
+            modelBuilder.Entity("JugendApp.SharedModels.Events.Invitation", b =>
+                {
+                    b.HasOne("JugendApp.SharedModels.Events.Event", "Event")
+                        .WithMany("Invitations")
+                        .HasForeignKey("EventId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("JugendApp.SharedModels.Person.Person", "Person")
+                        .WithMany("Invitations")
+                        .HasForeignKey("PersonId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Event");
+
+                    b.Navigation("Person");
+                });
+
+            modelBuilder.Entity("JugendApp.SharedModels.Events.Location", b =>
+                {
+                    b.HasOne("JugendApp.SharedModels.Events.Address", "Address")
+                        .WithOne()
+                        .HasForeignKey("JugendApp.SharedModels.Events.Location", "AddressId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Address");
+                });
+
             modelBuilder.Entity("JugendApp.SharedModels.Groups.GroupMember", b =>
                 {
                     b.HasOne("JugendApp.SharedModels.Groups.Group", "Group")
@@ -301,7 +344,7 @@ namespace JugendApp.Api.Migrations
                         .IsRequired();
 
                     b.HasOne("JugendApp.SharedModels.Person.Person", "Person")
-                        .WithMany("GroupMemberships")
+                        .WithMany()
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -341,6 +384,11 @@ namespace JugendApp.Api.Migrations
                     b.Navigation("Person");
                 });
 
+            modelBuilder.Entity("JugendApp.SharedModels.Events.Event", b =>
+                {
+                    b.Navigation("Invitations");
+                });
+
             modelBuilder.Entity("JugendApp.SharedModels.Groups.Group", b =>
                 {
                     b.Navigation("Members");
@@ -350,9 +398,9 @@ namespace JugendApp.Api.Migrations
                 {
                     b.Navigation("ContactOptions");
 
-                    b.Navigation("GroupMemberships");
-
                     b.Navigation("Instruments");
+
+                    b.Navigation("Invitations");
                 });
 #pragma warning restore 612, 618
         }

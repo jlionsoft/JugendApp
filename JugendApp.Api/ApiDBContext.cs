@@ -21,9 +21,10 @@ namespace JugendApp.Api
 
 
 
-        public DbSet<SimpleEvent> Events { get; set; }
+        public DbSet<Event> Events { get; set; }
         public DbSet<Location> Locations { get; set; }
         public DbSet<Address> Addresses { get; set; }
+        public DbSet<Invitation> Invitations { get; set; }
 
 
 
@@ -84,15 +85,15 @@ namespace JugendApp.Api
 
 
 
-            // SimpleEvent -> Person (CreatedBy)
-            modelBuilder.Entity<SimpleEvent>()
+            // Event -> Person (CreatedBy)
+            modelBuilder.Entity<Event>()
                 .HasOne(e => e.CreatedBy)
                 .WithMany() // optional: Person kann Events kennen, sonst WithMany()
                 .HasForeignKey(e => e.PersonId)
                 .OnDelete(DeleteBehavior.Restrict); // Prevent event deletion when person deleted OR choose Cascade if desired
 
-            // SimpleEvent -> Location
-            modelBuilder.Entity<SimpleEvent>()
+            // Event -> Location
+            modelBuilder.Entity<Event>()
                 .HasOne(e => e.Location)
                 .WithMany() // optional: Location kann Events kennen
                 .HasForeignKey(e => e.LocationId)
@@ -107,9 +108,26 @@ namespace JugendApp.Api
 
 
             // Feldlängen / Required
-            modelBuilder.Entity<SimpleEvent>().Property(e => e.Title).IsRequired().HasMaxLength(200);
+            modelBuilder.Entity<Event>().Property(e => e.Title).IsRequired().HasMaxLength(200);
             modelBuilder.Entity<Location>().Property(l => l.Name).HasMaxLength(200);
             modelBuilder.Entity<Address>().Property(a => a.PostalCode).HasMaxLength(20);
+
+
+
+            modelBuilder.Entity<Invitation>()
+                .HasKey(i => new { i.EventId, i.PersonId });
+
+            modelBuilder.Entity<Invitation>()
+                .HasOne(i => i.Event)
+                .WithMany(e => e.Invitations)
+                .HasForeignKey(i => i.EventId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Invitation>()
+                .HasOne(i => i.Person)
+                .WithMany(p => p.Invitations)
+                .HasForeignKey(i => i.PersonId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
 
     }

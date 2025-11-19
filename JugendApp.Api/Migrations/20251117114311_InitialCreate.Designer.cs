@@ -80,7 +80,7 @@ namespace JugendApp.Api.Migrations
                     b.ToTable("Locations");
                 });
 
-            modelBuilder.Entity("JugendApp.SharedModels.Events.SimpleEvent", b =>
+            modelBuilder.Entity("JugendApp.SharedModels.Events.Event", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -276,7 +276,7 @@ namespace JugendApp.Api.Migrations
                     b.Navigation("Address");
                 });
 
-            modelBuilder.Entity("JugendApp.SharedModels.Events.SimpleEvent", b =>
+            modelBuilder.Entity("JugendApp.SharedModels.Events.Event", b =>
                 {
                     b.HasOne("JugendApp.SharedModels.Events.Location", "Location")
                         .WithMany()

@@ -234,3 +234,7 @@ C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Desktop\obj\Debug\net8
 C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Desktop\obj\Debug\net8.0\ref\JugendApp.Desktop.dll
 C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Desktop\bin\Debug\net8.0\JugendApp.Client.dll
 C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Desktop\bin\Debug\net8.0\JugendApp.Client.pdb
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Desktop\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Desktop\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Desktop\bin\Debug\net8.0\JugendApp.DTOs.dll
+C:\Users\josua\source\repos\jlionsoft\JugendApp\JugendApp.Desktop\bin\Debug\net8.0\JugendApp.DTOs.pdb

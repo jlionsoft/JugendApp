@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using JugendApp.Api.DTOs;
+using JugendApp.DTOs;
 using JugendApp.SharedModels.Groups;
 
 namespace JugendApp.Api.Profiles

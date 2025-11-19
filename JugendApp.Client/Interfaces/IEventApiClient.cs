@@ -9,14 +9,19 @@ namespace JugendApp.Client.Interfaces
 {
     public interface IEventApiClient
     {
-        Task<IEnumerable<SimpleEventDto>> GetAllAsync();
-        Task<SimpleEventDto?> GetByIdAsync(int id);
-        Task<SimpleEventDto> CreateAsync(SimpleEventDto dto);
-        Task UpdateAsync(SimpleEventDto dto);
+        Task<IEnumerable<EventDto>> GetAllAsync();
+        Task<EventDto?> GetByIdAsync(int id);
+        Task<EventDto> CreateAsync(EventDto dto);
+        Task UpdateAsync(EventDto dto);
         Task DeleteAsync(int id);
 
         // Spezielle Methoden
-        Task<IEnumerable<SimpleEventDto>> GetEventsByPersonAsync(int personId);
-        Task<IEnumerable<SimpleEventDto>> GetEventsByLocationAsync(int locationId);
+        Task<IEnumerable<EventDto>> GetEventsByPersonAsync(int personId);
+        Task<IEnumerable<EventDto>> GetEventsByLocationAsync(int locationId);
+
+
+        Task InvitePersonAsync(InvitationDto dto);
+        Task RemoveInvitationAsync(int eventId, int personId);
+        Task<IEnumerable<InvitationDto>> GetInvitationsAsync(int eventId);
     }
 }

@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using JugendApp.Api.DTOs;
+using JugendApp.DTOs;
 using JugendApp.SharedModels.Events;
 
 namespace JugendApp.Api.Profiles
@@ -8,9 +8,10 @@ namespace JugendApp.Api.Profiles
     {
         public EventProfile()
         {
-            CreateMap<SimpleEvent, SimpleEventDto>().ReverseMap();
+            CreateMap<Event, EventDto>().ReverseMap();
             CreateMap<Location, LocationDto>().ReverseMap();
             CreateMap<Address, AddressDto>().ReverseMap();
+            CreateMap<Invitation,  InvitationDto>().ReverseMap();
         }
 
     }

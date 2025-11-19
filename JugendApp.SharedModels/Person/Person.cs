@@ -1,3 +1,4 @@
+using JugendApp.SharedModels.Events;
 using JugendApp.SharedModels.Groups;
 
 namespace JugendApp.SharedModels.Person;
@@ -47,6 +48,7 @@ public class Person
         existing.Detach();
     }
 
+    public ICollection<Invitation> Invitations { get; set; } = [];
     public Person() { }
 
     /// <summary>

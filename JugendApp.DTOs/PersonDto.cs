@@ -7,6 +7,7 @@
         public string Lastname { get; set; } = string.Empty;
         public List<ContactOptionDto> ContactOptions { get; set; } = new();
         public List<InstrumentSkillDto> Instruments { get; set; } = new();
+        public List<InvitationDto> Invitations { get; set; } = new();
 
     }
 }
