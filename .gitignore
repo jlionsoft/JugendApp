@@ -16,6 +16,7 @@
 # --- IDE & Projektdateien ---
 .idea/
 .vscode/
+.vs/
 *.suo
 *.user
 *.userosscache
@@ -85,3 +86,8 @@ publish/
 
 # --- Runtime spezifisch ---
 runtimes/
+
+
+# Ignoriere alle obj-Ordner in Unterprojekten
+**/obj/
+**/bin/
