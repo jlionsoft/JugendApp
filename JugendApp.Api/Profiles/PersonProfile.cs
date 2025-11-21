@@ -12,6 +12,7 @@ namespace JugendApp.Api.Profiles
             CreateMap<ContactOption, ContactOptionDto>().ReverseMap();
             CreateMap<Instrument, InstrumentDto>().ReverseMap();
             CreateMap<InstrumentSkill, InstrumentSkillDto>().ReverseMap();
+
         }
 
     }

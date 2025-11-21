@@ -5,10 +5,16 @@ using JugendApp.SharedModels.Person;
 using JugendApp.SharedModels.Events;
 using JugendApp.SharedModels.Groups;
 using Microsoft.EntityFrameworkCore.SqlServer;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using JugendApp.Api.Identity;
 namespace JugendApp.Api
 {
-    public class ApiDBContext : DbContext
+    public class ApiDBContext : IdentityDbContext<ApplicationUser, IdentityRole<int>, int>
     {
+        public ApiDBContext(DbContextOptions<ApiDBContext> options) : base(options)
+        {
+        }
         public DbSet<Person> Persons { get; set; }
         public DbSet<Instrument> Instruments { get; set; }
         public DbSet<InstrumentSkill> InstrumentSkills { get; set; }
@@ -28,12 +34,16 @@ namespace JugendApp.Api
 
 
 
-        public ApiDBContext(DbContextOptions options) : base(options)
-        {
-            
-        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<ApplicationUser>()
+                .HasOne(u => u.Person)
+                .WithOne()
+                .HasForeignKey<ApplicationUser>(u => u.PersonId)
+                .OnDelete(DeleteBehavior.Cascade);
+
             // Person <-> ContactOption : 1:n
             modelBuilder.Entity<Person>()
                 .HasMany(p => p.ContactOptions)
